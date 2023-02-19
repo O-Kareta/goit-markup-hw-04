@@ -136,6 +136,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -530,20 +534,16 @@ img {
   justify-content: center;
   border: 1px solid var(--color-helpertext);
   border-radius: 4px;
+  fill: var(--color-helpertext);
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--color-pressed);
-}
-
-.clients-icon:focus,
-.clients-icon:hover {
   fill: var(--color-pressed);
 }
 
 .clients-icon {
-  fill: var(--color-helpertext);
   width: 104px;
   height: 56px;
 }
